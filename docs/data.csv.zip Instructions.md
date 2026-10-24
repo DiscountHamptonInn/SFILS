@@ -1,1 +1,1 @@
-The ZIP will have to be extracted and its contents placed in '/var/lib/mysql-files'. If the user does not have this folder, then the directory in line 20 of '../scripts/san_francisco_library.sql' will have to be changed to the CSV file's directory.
+The ZIP will have to be extracted and its contents placed in '/var/lib/mysql-files'. If the user does not have this folder, then the directory in line 23 of '../scripts/san_francisco_library.sql' will have to be changed to the CSV file's directory.
