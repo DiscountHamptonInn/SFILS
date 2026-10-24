@@ -2,6 +2,8 @@ In ../scripts/san_francisco_library_3NF.sql:
     Database entries needs to be cleaned up. There are a lot of obvious typos and nonsense data.
     All instances of None or Unknown need to be replaced with NULL.
     MAIN.ProvidedEmailAddress and MAIN.WithinSanFranciscoCounty columns need to be TINYINT(1) to represent Booleans.
+    MAIN.YearPatronRegistered needs to be the YEAR data type.
+    MAIN.CirculationActiveMonth and MAIN.CirculationActiveYear should be collated in a single DATE column (with placeholder days).
 
 In ../app/frontend.py:
     Can currently only interact with the MAIN table. Need to be able to interact with all tables.
