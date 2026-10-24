@@ -1,4 +1,5 @@
 In ../app/frontend.py:
+    Can currently only interact with the MAIN table.
     There are multiple repeat operations when validating input for integers. These need to be condensed into a function.
-    The script currently validates for data type, but not foreign keys. The error is in MySQL, so it cannot be avoided with try:
-    Can currently only input into the MAIN table.
+
+Attempting to use the app as an unauthorized user makes the app crash. I've decided that this is a feature and not a bug.
