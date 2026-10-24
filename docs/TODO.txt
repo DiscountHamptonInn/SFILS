@@ -1,5 +1,6 @@
 In ../app/frontend.py:
-    Can currently only interact with the MAIN table.
+    Can currently only interact with the MAIN table. Need to be able to interact with all tables.
+    Can currently only insert new rows. Need to be able to view, edit, and delete rows.
     There are multiple repeat operations when validating input for integers. These need to be condensed into a function.
 
 Attempting to use the app as an unauthorized user makes the app crash. I've decided that this is a feature and not a bug.
